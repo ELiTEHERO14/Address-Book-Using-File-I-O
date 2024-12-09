@@ -63,6 +63,7 @@ int main(int argc,char * argv[])
         }
     }
     free(user);
+	remove("temp.csv);
     return success;
 }
 
